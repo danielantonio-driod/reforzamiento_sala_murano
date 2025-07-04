@@ -16,7 +16,7 @@ header {
     display: block; /* Asegura que la imagen se comporte como un bloque */
     border: 2px solid #ccc; /* Borde alrededor de la imagen */
     padding: 10px; /* Espacio entre el borde y la imagen */
-    background-image: url('/assets/img/index_bg.jpg'); /* Imagen de fondo */
+    background-image:none; /* Imagen de fondo */
     /* background-color: #fff; */ /* Fondo blanco para la imagen */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil alrededor de la imagen */
     border-radius: 10px; /* Bordes redondeados para las imágenes */
