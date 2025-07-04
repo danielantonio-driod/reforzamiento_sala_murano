@@ -1,0 +1,59 @@
+/*header*/
+
+header {
+    background-color: #333; /* Fondo oscuro para el encabezado */
+    color: white; /* Color del texto en el encabezado */
+    padding: 10px 0; /* Espacio interno en el encabezado */
+    text-align: center; /* Centra el texto en el encabezado */
+}
+
+/*cards*/
+.card1 {
+    width: 300px;;
+    height: 150px; /* Altura fija para las imágenes */
+    object-fit: cover; /* Recorta la imagen para que cubra el espacio sin distorsión */
+    margin:auto; /* Centra la imagen horizontalmente */
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    border: 2px solid #ccc; /* Borde alrededor de la imagen */
+    padding: 10px; /* Espacio entre el borde y la imagen */
+    background-image: url('/assets/img/index_bg.jpg'); /* Imagen de fondo */
+    /* background-color: #fff; */ /* Fondo blanco para la imagen */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil alrededor de la imagen */
+    border-radius: 10px; /* Bordes redondeados para las imágenes */
+    text-align: center; /* Centra el texto dentro del elemento */
+    width: 100%; /* Asegura que el elemento ocupe todo el ancho disponible */
+    padding: 20px; /* Espacio interno para el texto */
+    font-size: 1.7em; /* Tamaño de fuente más grande para el texto */
+    color: rgb(255, 255, 255);  /* Color del texto */
+}
+
+.card1 .card-body {
+    padding: 20px; /* Espacio interno del cuerpo de la tarjeta */
+    text-align: center; /* Centra el texto dentro del cuerpo de la tarjeta */
+}
+
+.card-body:hover {
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transform: scale(1.20); /* Aumenta ligeramente el tamaño al pasar el mouse */
+    transition: transform 0.1s ease; /* Transición suave para el efecto de aumento */
+}
+
+/* Modal */
+.modal-content {
+    background-color: #fefefe; /* Fondo blanco para el contenido del modal */
+    margin: 15% auto; /* Centra el modal vertical y horizontalmente */
+    padding: 20px; /* Espacio interno del modal */
+    border: 1px solid #888; /* Borde alrededor del modal */
+    width: 80%; /* Ancho del modal */
+    background-image: none; /* Elimina la imagen de fondo del modal */
+}
+
+/* Botones */
+.btn {
+    background-color: #4CAF50; /* Color de fondo verde para los botones */
+    color: white; /* Color del texto en los botones */
+    padding: 10px 20px; /* Espacio interno en los botones */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados para los botones */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
