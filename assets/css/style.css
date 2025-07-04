@@ -27,7 +27,8 @@ header {
     color: rgb(255, 255, 255);  /* Color del texto */
 }
 
-.card1 .card-body {
+
+.card-body {
     padding: 20px; /* Espacio interno del cuerpo de la tarjeta */
     text-align: center; /* Centra el texto dentro del cuerpo de la tarjeta */
 }
