@@ -1,38 +1,11 @@
 /*header*/
 
 header {
-    background-color: #000000; /* Fondo oscuro para el encabezado */
-    color: white; /* Color del texto en el encabezado */
+    background: linear-gradient(to right, #3700ffa4, #ff7f00); /* Gradiente de rojo a naranja */
     padding: 10px 0; /* Espacio interno en el encabezado */
     text-align: center; /* Centra el texto en el encabezado */
     font-size: 2em; /* Tamaño de fuente más grande para el encabezado */
     font-family: Arial, sans-serif; /* Fuente del encabezado */
-}
-
-.nav-bar {
-    background-color: #ff000073; /* Fondo oscuro para la barra de navegación */
-    padding: 10px 0; /* Espacio interno en la barra de navegación */
-    font-family: Arial, sans-serif; /* Fuente de la barra de navegación */
-}   
-
-.nav-bar a {
-    color: white; /* Color del texto en los enlaces de la barra de navegación */
-    text-decoration: none; /* Elimina el subrayado de los enlaces */
-    padding: 10px 20px; /* Espacio interno en los enlaces */
-    font-size: 1.2em; /* Tamaño de fuente para los enlaces */
-}
-
-.nav-bar a:hover {
-    background-color: #555; /* Cambia el fondo al pasar el mouse por encima */
-    color: white; /* Color del texto al pasar el mouse */
-}
-
-
-
-.cards {
-    display: flex; /* Utiliza flexbox para el diseño de las tarjetas */
-    flex-wrap: wrap; /* Permite que las tarjetas se envuelvan en varias líneas */
-    justify-content: center; /* Centra las tarjetas horizontalmente */
 }
 
 /*cards*/
