@@ -1,37 +1,78 @@
-/*header*/
 
-header {
-    background: linear-gradient(to right, #3700ffa4, #ff7f00); /* Gradiente de rojo a naranja */
-    padding: 10px 0; /* Espacio interno en el encabezado */
-    text-align: center; /* Centra el texto en el encabezado */
-    font-size: 2em; /* Tamaño de fuente más grande para el encabezado */
-    font-family: Arial, sans-serif; /* Fuente del encabezado */
+   #header {
+  /* 1) Capas de fondo: 
+       - capa 0: tu logo
+       - capa 1: degradado */
+    background-image:
+    url('/assets/img/chile.jpeg'),
+    linear-gradient(to right, #024583,  #4ca0ee, #ffffff);
+
+
+  /* 4) Tamaños:
+       - logo: ancho fijo 150px (alto automático)
+       - degradado: cubre 100% ancho y alto */
+    background-size: 150px auto, 100% 100%;
+    background-position: left; /* Centra la imagen de fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    opacity: var(#eeeeeebe);
+
 }
 
-/*cards*/
-.card1 {
-    width: 300px;;
-    height: 150px; /* Altura fija para las imágenes */
-    object-fit: cover; /* Recorta la imagen para que cubra el espacio sin distorsión */
-    margin:auto; /* Centra la imagen horizontalmente */
-    display: block; /* Asegura que la imagen se comporte como un bloque */
-    border: 2px solid #ccc; /* Borde alrededor de la imagen */
-    padding: 10px; /* Espacio entre el borde y la imagen */
-    background-image:none; /* Imagen de fondo */
-    /* background-color: #fff; */ /* Fondo blanco para la imagen */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil alrededor de la imagen */
-    border-radius: 10px; /* Bordes redondeados para las imágenes */
-    text-align: center; /* Centra el texto dentro del elemento */
-    width: 100%; /* Asegura que el elemento ocupe todo el ancho disponible */
-    padding: 20px; /* Espacio interno para el texto */
-    font-size: 1.7em; /* Tamaño de fuente más grande para el texto */
-    color: rgb(255, 255, 255);  /* Color del texto */
+
+#nav-bar {
+    width: 100%; /* Ancho completo del navbar */
+    z-index: 1000; /* Asegura que el navbar esté por encima de otros elementos */
+    position: relative;
+}
+#nav-bar a {
+    float: right; /* Alinea los enlaces a la derecha */
+    display: block; /* Hace que los enlaces sean bloques */
+    color: #ffffff; /* Color del texto de los enlaces */
+    text-align: right; /* Centra el texto dentro de los enlaces */
+    padding: 14px 16px; /* Espacio interno de los enlaces */
+   
 }
 
+#main-content {
+
+    background-image: url('/assets/img/Chile-photos.jpg '); /* Ruta de la imagen de fondo del contenido principal */
+    padding: 20px; /* Espacio interno del contenido principal */
+    background-size: cover; /* Asegura que la imagen cubra todo el contenido principal */
+    background-position: center; /* Centra la imagen de fondo */
+    background-color: #55001c00; /* Color de fondo claro para el contenido principal */
+    border-radius: 10px; /* Bordes redondeados para el contenido principal */
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.1); /* Sombra sutil para el contenido principal */
+    
+
+}   
+
+#main-content h1 {
+    color: #ffffff; /* Color del texto del título */
+    text-align: center; /* Centra el texto del título */
+    margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+#card1 {
+background-image: url(/assets/img/bahia.jpg);
+width: 300px;
+
+}
+
+#card2 {
+background-image:url(/assets/img/torres.jpg);    
+width: 300px;
+}
+
+#card3 {
+background-image: url(/assets/img/isla.jpg);
+width: 300px;    
+}
 
 .card-body {
     padding: 20px; /* Espacio interno del cuerpo de la tarjeta */
     text-align: center; /* Centra el texto dentro del cuerpo de la tarjeta */
+        
+    
 }
 
 .card-body:hover {
